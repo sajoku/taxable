@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Taxable::VERSION
   spec.authors       = ["Sajoku"]
   spec.email         = ["sajoku@me.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Calcute dutch taxes for vairous salaries}
+  spec.description   = %q{Taxable can calculate from and to net prices based on the dutch tax construction.}
+  spec.homepage      = "http://github.com/sajoku/taxable"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
